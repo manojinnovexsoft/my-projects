@@ -1,0 +1,79 @@
+#footer {
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    border-top: 1px solid rgb(227, 217, 217);
+    margin-top: 60px;
+    position: relative;
+ }
+
+ .inner-footer {
+     width: 80%;
+     margin: 0 10%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     margin-top: 30px;
+ }
+
+ .copyright-sec > h1 {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 600;
+ }
+
+ .copyright-sec > p {
+     font-size: 13px;
+ }
+
+ .footer-content {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .footer-third {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer-content  a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .dr-content {
+     position: absolute;
+     min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    border: 1px solid rgba(0,0,0,.15);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    top: -115px;
+    display: none;
+ }
+
+ .dr-content > a {
+     display: block;
+     padding: 7px 10px;
+  text-align: left;
+  background-color: #fff;
+  font-size: 15px;
+ }
+
+.footer-link {
+    font-size: 14px;
+    margin-right: 13px;
+    color: #333;
+}
+
+.footer-more:hover .footer-more-content {
+    display: block;
+}
+
+.footer-company:hover .footer-company-content {
+    display: block;
+}
+
+.inner-footer a:hover {
+    color: #ff5300;
+}
